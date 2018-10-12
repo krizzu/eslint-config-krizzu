@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-krizzu",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "main": "index.js",
   "author": "Krzysztof 'Krizzu' Borowy",
   "repository": "git@github.com:Krizzu/krizzu-eslint-config-ts.git",

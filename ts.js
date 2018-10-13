@@ -1,19 +1,20 @@
+const commonRules = require('./commonRules')
+
 module.exports = {
-  extends: ['krizzu'],
-  overrides: [{
-    files: ['**/*.ts', '**/*.tsx'],
-    plugins: [
-      'typescript'
-    ],
-    parser: 'typescript-eslint-parser',
-    rules: {
-      'no-restricted-syntax': ["error", "WithStatement"]
-    }
-  }],
+  extends: ['krizzu', 'typescript'],
+  parser: 'typescript-eslint-parser',
+  plugins: [
+    'typescript'
+  ],
+  env: {
+    node: true,
+    es6: true,
+  },
+  rules: commonRules,
   settings: {
     'import/resolver': {
       node: {
-        extensions: ['.ts', '.tsx', '.js'],
+        extensions: ['.ts', '.tsx'],
       },
     },
   }

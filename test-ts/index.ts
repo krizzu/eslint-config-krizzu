@@ -11,9 +11,9 @@ class MyClass implements ExtendMePlease {
     this.doStuff();
   }
 
-  private doStuff() {
+  private doStuff = () => {
     console.log('doing stuff');
-  }
+  };
 }
 
 myFunction(myName);

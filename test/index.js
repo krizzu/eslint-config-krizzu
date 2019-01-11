@@ -9,11 +9,11 @@ class MySuperClass {
     this.name = '';
   }
 
-  myMethod(change) {
+  myMethod = change => {
     this.name = change;
-  }
+  };
 }
 
 myFunc(name);
-const obj = new MySuperClass();
-obj.myMethod('hehe');
+const obj = MySuperClass();
+obj.myMethod('test');

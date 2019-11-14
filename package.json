@@ -23,6 +23,7 @@
     "eslint-plugin-prettier": "^2.6.2",
     "eslint-plugin-react": "^7.5.1",
     "eslint-plugin-typescript": "^0.12.0",
+    "eslint-restricted-globals": "^0.2.0",
     "prettier": "^1.14.2",
     "typescript-eslint-parser": "^20.0.0"
   },

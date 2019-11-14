@@ -10,7 +10,14 @@ module.exports = {
     node: true,
     es6: true,
   },
-  rules: commonRules,
+  rules: {
+    ...commonRules,
+    'typescript/explicit-member-accessibility': 0,
+    'typescript/no-use-before-define': 0,
+    'typescript/member-ordering': 0,
+    'typescript/explicit-function-return-type': 0,
+    'typescript/member-delimiter-style': 1
+  },
   settings: {
     'import/resolver': {
       node: {

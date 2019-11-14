@@ -6,3 +6,6 @@ yarn-error.log*
 node_modules/
 .eslintcache
 .yarn-integrity
+.idea/
+test-ts/yarn.lock
+test/yarn.lock

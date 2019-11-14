@@ -7,7 +7,7 @@ const MyC = class X {};
 const myName: nameType = 'Kristof';
 
 class MyClass implements ExtendMePlease {
-  public doItPlease() {
+  doItPlease() {
     this.doStuff();
   }
 
